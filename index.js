@@ -44,7 +44,7 @@ async function verifyToken(req, res, next) {
 async function run() {
     try {
         await client.connect();
-        const database = client.db('doctors_portal');
+        const database = client.db('doctors_portals');
         const appointmentsCollection = database.collection('appointments');
         const usersCollection = database.collection('users');
         const doctorsCollection = database.collection('doctors');
