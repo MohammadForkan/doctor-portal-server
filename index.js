@@ -192,3 +192,11 @@ app.listen(port, () => {
 // app.delete('/users/:id')
 // users: get
 // users: post
+
+// app.post('/users')
+// app.get('/users/:id')
+// app.put('/users/:id');
+// app.delete('/users/:id')
+// users: get
+// users: post
+
